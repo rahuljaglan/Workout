@@ -323,3 +323,5 @@ class App {
 }
 
 const app = new App();
+
+exports.build = series(scssTask, jsTask);
